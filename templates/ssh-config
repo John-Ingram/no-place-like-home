@@ -1,19 +1,19 @@
 Host nat.ddns.me
     Port 28
-    User jwilcox
+    User jingram
     ForwardAgent yes
     ForwardX11 yes
-Host cn-bm-jwilcox2.adtran.com
-    User jwilcox
+Host cn-bm-jingram2.adtran.com
+    User jingram
     ForwardAgent yes
     ForwardX11 yes
     RemoteForward /run/user/1000/gnupg/S.gpg-agent:/run/user/1000/gnupg/S.gpg-agent.extra
     StreamLocalBindUnlink yes
-Host cn-lp-jwilcox.adtran.com
-    User jwilcox
+Host cn-lp-jingram.adtran.com
+    User jingram
     ForwardAgent yes
     ForwardX11 yes
 Host electropi
-    User jwilcox
+    User jingram
     ForwardAgent yes
     ForwardX11 yes

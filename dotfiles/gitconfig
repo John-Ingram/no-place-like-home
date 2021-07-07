@@ -1,8 +1,8 @@
 [user]
-	email = jennifer@nitori.org
-	name = Jennifer Wilcox
+	email = j123j7@gmail.com
+	name = John Ingram
 [core]
-	excludesfile = /home/jwilcox/.gitignore
+	excludesfile = /home/jingram/.gitignore
 	quotePath = false
 [hub]
 	host = github.adtran.com

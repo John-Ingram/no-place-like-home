@@ -38,6 +38,8 @@
       dest: .gnupg/gpg-agent.conf
     - src: bashrc
       dest: .bashrc
+    - src: zshrc
+      dest: /sdhrc
     - src: inputrc
       dest: .inputrc
     - src: profile

@@ -1,4 +1,4 @@
-let g:python3_host_prog = "/home/jwilcox/.virtualenvs/neovim-py3/bin/python"
+let g:python3_host_prog = "/home/jingram/.virtualenvs/neovim-py3/bin/python"
 
 call plug#begin('~/.local/share/nvim/plugged')
 
