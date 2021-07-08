@@ -5,7 +5,7 @@
 	excludesfile = /home/jingram/.gitignore
 	quotePath = false
 [hub]
-	host = github.adtran.com
+	host = github.com
 [alias]
     yeet = push
     yoink = pull
