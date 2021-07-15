@@ -103,9 +103,19 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Aliases
+ alias zshconfig="vim ~/.zshrc"
+ alias ohmyzsh="vim ~/.oh-my-zsh"
+ alias cl="clear"
+ alias full="git fetch; git pull; echo \"Ran a fetch and pull\""
+
+# Create and checkout a new git branch from the last commit message
+ alias gto-new="/home/jingram/Documents/personal/scripts/branch_name_from_commit.sh"
+# Ways i misspell git
+ alias gut="git"
+ alias gti="git"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
