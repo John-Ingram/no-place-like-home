@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH="$HOME/.local/bin:$PATH"
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jingram/.oh-my-zsh"
 
@@ -111,6 +111,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Create and checkout a new git branch from the last commit message
  alias gto-new="/home/jingram/Documents/personal/scripts/branch_name_from_commit.sh"
+
+# Push a new branch to remote origin
+ alias glaunch="/home/jingram/Documents/personal/scripts/push_new_branch.sh"
 # Ways i misspell git
  alias gut="git"
  alias gti="git"
@@ -119,3 +122,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
+source /home/jingram/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
